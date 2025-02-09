@@ -1,0 +1,18 @@
+@media (max-width: 480px) {
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .surprise a {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+
+  .main img {
+    width: 50%;
+    border-radius: 15px;
+  }
+  .main p {
+    font-size: 1.1rem;
+  }
+}

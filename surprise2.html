@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surprise babee 😘</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Pacifico", cursive;
+        overflow-x: hidden;
+      }
+
+      body {
+        background-color: #ffbbc0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+      }
+
+      /* Main Container */
+      .main-content {
+        width: 90%;
+        max-width: 600px;
+        background-color: #fff5f7;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+        animation: glow 2s infinite alternate ease-in-out;
+      }
+
+      /* Poem Text */
+      p,
+      pre {
+        font-size: 1rem;
+        color: #ff4d6d;
+        line-height: 1.8;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+      button {
+        background-color: #ff4d6d;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 1rem;
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+        animation: glow 2s infinite alternate ease-in-out;
+      }
+      /* Soft Glowing Effect */
+      @keyframes glow {
+        0% {
+          box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+        }
+        100% {
+          box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
+        }
+      }
+      .heart {
+        animation: floatHearts 7s infinite ease;
+      }
+      /* Floating Hearts Animation */
+      @keyframes floatHearts {
+        0% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-100vh);
+          opacity: 0;
+        }
+      }
+
+      /* Floating Heart Elements */
+      .heart {
+        position: absolute;
+        bottom: 0;
+        color: #ff4d6d;
+        font-size: 20px;
+        animation: floatHearts 4s infinite linear;
+      }
+
+      @media (max-width: 480px) {
+        pre {
+          font-size: 0.9rem;
+        }
+        .main-content {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-content">
+      <pre>
+        Kuch kehna tha tumse...
+        Sunogi na?
+        
+        Zindagi chhoti hai,
+        Par har lamha tumhare saath jeena chahta hoon,
+        Apni duniya banaogi na?
+        
+        Sochta hoon kabhi-kabhi,
+        Bas ek pal ke liye mujhe gale laga lo,
+        Aur keh do—"sab theek ho jayega"…
+        Mujhe yeh sukoon dogi na?
+        
+        Meri har khushi tumse hai,
+        Meri har baat tumse…
+        Zindagi ke iss safar mein,
+        Mera haath thamogi na?
+        
+        Tere bina yeh duniya adhuri lagti hai,
+        Jaise chaand bin chandni,
+        Jaise saavan bin barish…
+        Meri zindagi ko apni muskurahat se sajaogi na?
+        
+        Mere har din ki subah tumse ho,
+        Har raat tumhare sapno se…
+        Meri har kahani ka ek hi anjaam ho—
+        Sirf "tum aur main"…
+        
+        Saat janmon ka wada nahi karta,
+        Par iss janam mein sirf tumhara banna chahta hoon...
+        Meri banogi na?
+        
+        Dil ki gehraiyon se sirf ek baat kehni hai—
+        Main tumse sachha pyaar karta hoon...
+        Kya tum meri zindagi banogi???</pre
+      >
+      <p>Will You Be My Valentine??</p>
+      <button onclick="changePage()">Yesss</button>
+      <button onclick="changePage()">Of Course, Yesss</button>
+      <p class="heart">❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</p>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
